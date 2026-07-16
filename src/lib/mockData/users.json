@@ -1,0 +1,28 @@
+[
+  {
+    "id": "u1",
+    "name": "Budi Santoso",
+    "email": "budi@example.com",
+    "role": "STUDENT_B2C"
+  },
+  {
+    "id": "u2",
+    "name": "Sarah Wijaya",
+    "email": "sarah@corporate.com",
+    "role": "CORPORATE_ADMIN",
+    "companyId": "c1"
+  },
+  {
+    "id": "u3",
+    "name": "Andi Karyawan",
+    "email": "andi@corporate.com",
+    "role": "STUDENT_B2B",
+    "companyId": "c1"
+  },
+  {
+    "id": "u4",
+    "name": "Admin Venturo",
+    "email": "admin@venturo.com",
+    "role": "SUPER_ADMIN"
+  }
+]

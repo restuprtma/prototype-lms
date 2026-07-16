@@ -1,0 +1,12 @@
+[
+  {
+    "companyId": "c1",
+    "companyName": "PT Finansial Nusantara",
+    "totalSeats": 50,
+    "usedSeats": 1,
+    "employees": [
+      "u3"
+    ],
+    "averageParticipation": 25
+  }
+]
