@@ -1,0 +1,29 @@
+[
+  {
+    "id": "crs1",
+    "title": "AI for Daily Work",
+    "description": "Pelajari cara menggunakan ChatGPT dan Midjourney untuk otomatisasi pekerjaan Anda.",
+    "price": 499000,
+    "thumbnail": "https://placehold.co/600x400/png",
+    "instructor": "Venturo Expert",
+    "learningOutcomes": [
+      "Menguasai dasar prompt engineering",
+      "Mampu membuat materi copywriting otomatis",
+      "Dapat menghasilkan aset visual"
+    ],
+    "syllabus": [
+      {
+        "id": "ch1",
+        "title": "Pengenalan AI",
+        "lessons": [
+          {
+            "id": "ls1",
+            "title": "Apa itu Generative AI?",
+            "videoUrl": "https://example.com/video1.mp4",
+            "duration": 300
+          }
+        ]
+      }
+    ]
+  }
+]

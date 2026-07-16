@@ -1,0 +1,15 @@
+[
+  {
+    "id": "en1",
+    "userId": "u1",
+    "courseId": "crs1",
+    "enrolledAt": "2026-07-16T10:00:00Z",
+    "progress": [
+      {
+        "lessonId": "ls1",
+        "progressPercentage": 100
+      }
+    ],
+    "quizScore": 85
+  }
+]

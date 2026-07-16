@@ -1,0 +1,20 @@
+[
+  {
+    "id": "tx1",
+    "userId": "u1",
+    "type": "B2C_QRIS",
+    "amount": 499000,
+    "status": "SUCCESS",
+    "createdAt": "2026-07-16T09:30:00Z",
+    "courseId": "crs1"
+  },
+  {
+    "id": "tx2",
+    "userId": "u2",
+    "type": "B2B_INVOICE",
+    "amount": 24950000,
+    "status": "SUCCESS",
+    "createdAt": "2026-07-15T09:30:00Z",
+    "companyId": "c1"
+  }
+]
