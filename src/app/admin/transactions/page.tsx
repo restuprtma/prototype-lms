@@ -34,8 +34,8 @@ export default function AdminTransactionsPage() {
     }
   };
 
-  const getPaymentMethodBadge = (method: "QRIS" | "INVOICE_B2B") => {
-    return method === "INVOICE_B2B" ? (
+  const getPaymentMethodBadge = (method: "B2C_QRIS" | "B2B_INVOICE") => {
+    return method === "B2B_INVOICE" ? (
       <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-bold bg-purple-50 text-purple-700 border border-purple-200">
         B2B Invoice
       </span>
@@ -73,13 +73,13 @@ export default function AdminTransactionsPage() {
                 <tr key={tx.id} className="hover:bg-gray-50 transition-colors">
                   <td className="px-6 py-4 font-mono font-bold text-xs text-gray-900">{tx.id}</td>
                   <td className="px-6 py-4">
-                    <div className="font-semibold text-gray-900">{tx.userEmail}</div>
+                    <div className="font-semibold text-gray-900">{tx.userId}</div>
                   </td>
-                  <td className="px-6 py-4">{getPaymentMethodBadge(tx.paymentMethod)}</td>
+                  <td className="px-6 py-4">{getPaymentMethodBadge(tx.type)}</td>
                   <td className="px-6 py-4 font-semibold text-gray-900">
                     {new Intl.NumberFormat("id-ID", { style: "currency", currency: "IDR", minimumFractionDigits: 0 }).format(tx.amount)}
                   </td>
-                  <td className="px-6 py-4 text-xs text-gray-400">{tx.date}</td>
+                  <td className="px-6 py-4 text-xs text-gray-400">{tx.createdAt}</td>
                   <td className="px-6 py-4 text-right">{getStatusBadge(tx.status)}</td>
                 </tr>
               ))}
