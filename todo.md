@@ -73,7 +73,7 @@ Untuk AI Agent yang akan mengeksekusi instruksi ini, PATUHI aturan berikut secar
 - [x] Buat halaman `src/app/corporate/employees/page.tsx` untuk me-render `EmployeeTable` dan tombol buka `BulkInviteModal`.
 
 ### 3D. Super Admin Area (Venturo CMS)
-- [ ] Buat layout `src/app/admin/layout.tsx` untuk render `DashboardSidebar` (role="admin").
-- [ ] Buat halaman `src/app/admin/courses/page.tsx` berisi tabel daftar course dan form "Create Course".
-- [ ] Buat halaman `src/app/admin/transactions/page.tsx` menampilkan tabel riwayat transaksi (`transactions.json`).
-- [ ] Buat halaman `src/app/admin/users/page.tsx` untuk tabel manajemen seluruh entitas pengguna.
+- [x] Buat layout `src/app/admin/layout.tsx` untuk render `DashboardSidebar` (role="admin").
+- [x] Buat halaman `src/app/admin/courses/page.tsx` berisi tabel daftar course dan form "Create Course".
+- [x] Buat halaman `src/app/admin/transactions/page.tsx` menampilkan tabel riwayat transaksi (`transactions.json`).
+- [x] Buat halaman `src/app/admin/users/page.tsx` untuk tabel manajemen seluruh entitas pengguna.
