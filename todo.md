@@ -56,10 +56,10 @@ Untuk AI Agent yang akan mengeksekusi instruksi ini, PATUHI aturan berikut secar
 ## Fase 3: Perakitan Halaman (Route Structure)
 
 ### 3A. Public & Auth Pages
-- [ ] Buat halaman `src/app/page.tsx` (Landing page) yang menyatukan komponen `PublicNavbar`, Header Banner, dan deretan `CourseCard`.
-- [ ] Buat halaman `src/app/login/page.tsx` dan render `AuthForm`.
-- [ ] Buat halaman `src/app/courses/page.tsx` menampilkan halaman katalog grid dengan `FilterSidebar`.
-- [ ] Buat halaman `src/app/courses/[id]/page.tsx` untuk render detail lengkap silabus, trailer video, dan komponen `CheckoutSummary`.
+- [x] Buat halaman `src/app/page.tsx` (Landing page) yang menyatukan komponen `PublicNavbar`, Header Banner, dan deretan `CourseCard`.
+- [x] Buat halaman `src/app/login/page.tsx` dan render `AuthForm`.
+- [x] Buat halaman `src/app/courses/page.tsx` menampilkan halaman katalog grid dengan `FilterSidebar`.
+- [x] Buat halaman `src/app/courses/[id]/page.tsx` untuk render detail lengkap silabus, trailer video, dan komponen `CheckoutSummary`.
 
 ### 3B. Student Area (B2C & B2B Employee)
 - [ ] Buat layout `src/app/student/layout.tsx` untuk render `DashboardSidebar` (role="student").
