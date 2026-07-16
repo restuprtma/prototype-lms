@@ -62,10 +62,10 @@ Untuk AI Agent yang akan mengeksekusi instruksi ini, PATUHI aturan berikut secar
 - [x] Buat halaman `src/app/courses/[id]/page.tsx` untuk render detail lengkap silabus, trailer video, dan komponen `CheckoutSummary`.
 
 ### 3B. Student Area (B2C & B2B Employee)
-- [ ] Buat layout `src/app/student/layout.tsx` untuk render `DashboardSidebar` (role="student").
-- [ ] Buat halaman `src/app/student/dashboard/page.tsx` menampilkan daftar kursus yang sudah dibeli dengan `ProgressBar` untuk masing-masing kursus.
-- [ ] Buat layout `src/app/student/learn/[courseId]/layout.tsx` (hilangkan elemen navbar/footer standar untuk pengalaman *fullscreen*).
-- [ ] Buat halaman `src/app/student/learn/[courseId]/page.tsx` dengan struktur _Split-Screen_: Kiri memuat `VideoPlayer` & `MaterialTabs`, Kanan memuat `SyllabusSidebar`.
+- [x] Buat layout `src/app/student/layout.tsx` untuk render `DashboardSidebar` (role="student").
+- [x] Buat halaman `src/app/student/dashboard/page.tsx` menampilkan daftar kursus yang sudah dibeli dengan `ProgressBar` untuk masing-masing kursus.
+- [x] Buat layout `src/app/student/learn/[courseId]/layout.tsx` (hilangkan elemen navbar/footer standar untuk pengalaman *fullscreen*).
+- [x] Buat halaman `src/app/student/learn/[courseId]/page.tsx` dengan struktur _Split-Screen_: Kiri memuat `VideoPlayer` & `MaterialTabs`, Kanan memuat `SyllabusSidebar`.
 
 ### 3C. Corporate Admin Area (B2B)
 - [ ] Buat layout `src/app/corporate/layout.tsx` untuk render `DashboardSidebar` (role="corporate").
