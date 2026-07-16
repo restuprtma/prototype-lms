@@ -49,9 +49,9 @@ Untuk AI Agent yang akan mengeksekusi instruksi ini, PATUHI aturan berikut secar
 - [x] Buat komponen `src/components/Features/CertificatePreview.tsx` untuk tampilan PDF mock.
 
 ### 2E. Komponen Layouting Global
-- [ ] Buat komponen `src/components/Layout/PublicNavbar.tsx` untuk halaman tanpa login (Hero, Catalog).
-- [ ] Buat komponen `src/components/Layout/DashboardSidebar.tsx` yang menunya reaktif bergantung pada props `role` (Student, Corp Admin, Super Admin).
-- [ ] Buat komponen `src/components/Layout/Footer.tsx`.
+- [x] Buat komponen `src/components/Layout/PublicNavbar.tsx` untuk halaman tanpa login (Hero, Catalog).
+- [x] Buat komponen `src/components/Layout/DashboardSidebar.tsx` yang menunya reaktif bergantung pada props `role` (Student, Corp Admin, Super Admin).
+- [x] Buat komponen `src/components/Layout/Footer.tsx`.
 
 ## Fase 3: Perakitan Halaman (Route Structure)
 
