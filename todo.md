@@ -42,11 +42,11 @@ Untuk AI Agent yang akan mengeksekusi instruksi ini, PATUHI aturan berikut secar
 - [x] Buat komponen `src/components/Features/BulkInviteModal.tsx` berisi form input _textarea_ (untuk multiple email) atau drag-n-drop CSV.
 
 ### 2D. Komponen Learning Player
-- [ ] Buat komponen `src/components/Features/VideoPlayer.tsx` berisi elemen `<video>` sederhana dengan mock controls dan simulasi HLS.
-- [ ] Buat komponen `src/components/Features/SyllabusSidebar.tsx` yang me-render nested list dari chapter ke lesson. Beri _highlight_ pada lesson aktif.
-- [ ] Buat komponen `src/components/Features/MaterialTabs.tsx` untuk switch tampilan antara tab "Attachments" (contoh unduh PDF) dan tab "External Links" (seperti link ChatGPT).
-- [ ] Buat komponen `src/components/Features/QuizForm.tsx` berisi radio button soal pilihan ganda, tombol submit, dan pop-up hasil (Lulus/Gagal).
-- [ ] Buat komponen `src/components/Features/CertificatePreview.tsx` untuk tampilan PDF mock.
+- [x] Buat komponen `src/components/Features/VideoPlayer.tsx` berisi elemen `<video>` sederhana dengan mock controls dan simulasi HLS.
+- [x] Buat komponen `src/components/Features/SyllabusSidebar.tsx` yang me-render nested list dari chapter ke lesson. Beri _highlight_ pada lesson aktif.
+- [x] Buat komponen `src/components/Features/MaterialTabs.tsx` untuk switch tampilan antara tab "Attachments" (contoh unduh PDF) dan tab "External Links" (seperti link ChatGPT).
+- [x] Buat komponen `src/components/Features/QuizForm.tsx` berisi radio button soal pilihan ganda, tombol submit, dan pop-up hasil (Lulus/Gagal).
+- [x] Buat komponen `src/components/Features/CertificatePreview.tsx` untuk tampilan PDF mock.
 
 ### 2E. Komponen Layouting Global
 - [ ] Buat komponen `src/components/Layout/PublicNavbar.tsx` untuk halaman tanpa login (Hero, Catalog).
