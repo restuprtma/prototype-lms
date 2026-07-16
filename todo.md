@@ -37,9 +37,9 @@ Untuk AI Agent yang akan mengeksekusi instruksi ini, PATUHI aturan berikut secar
 - [x] Buat komponen `src/components/Features/AuthForm.tsx` untuk toggle antara Login dan Register.
 
 ### 2C. Komponen Corporate Dashboard (B2B)
-- [ ] Buat komponen `src/components/Features/SeatOverviewCard.tsx` dengan props: `totalSeats`, `usedSeats` dan _visualize_ sisa kuota.
-- [ ] Buat komponen `src/components/Features/EmployeeTable.tsx` dengan kolom nama, status progress, skor kuis, dan props `onRevokeAccess`.
-- [ ] Buat komponen `src/components/Features/BulkInviteModal.tsx` berisi form input _textarea_ (untuk multiple email) atau drag-n-drop CSV.
+- [x] Buat komponen `src/components/Features/SeatOverviewCard.tsx` dengan props: `totalSeats`, `usedSeats` dan _visualize_ sisa kuota.
+- [x] Buat komponen `src/components/Features/EmployeeTable.tsx` dengan kolom nama, status progress, skor kuis, dan props `onRevokeAccess`.
+- [x] Buat komponen `src/components/Features/BulkInviteModal.tsx` berisi form input _textarea_ (untuk multiple email) atau drag-n-drop CSV.
 
 ### 2D. Komponen Learning Player
 - [ ] Buat komponen `src/components/Features/VideoPlayer.tsx` berisi elemen `<video>` sederhana dengan mock controls dan simulasi HLS.
