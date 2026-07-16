@@ -6,6 +6,7 @@ Untuk AI Agent yang akan mengeksekusi instruksi ini, PATUHI aturan berikut secar
 3. Gunakan **TypeScript** secara konsisten. Buat definisi *interface* sebelum mengimplementasikan komponen atau halaman.
 4. Semua komponen UI wajib dibuat menggunakan **Tailwind CSS** (utility classes) tanpa menyentuh file `.css` terpisah.
 5. Gunakan Lucide-React untuk seluruh kebutuhan ikon (e.g. `import { Home } from 'lucide-react'`).
+6. Setelah kode selesai ditulis dan disimpan, perbarui file todo.md dengan mengubah tanda [ ] menjadi [x] pada baris yang bersangkutan.
 
 ---
 
@@ -30,10 +31,10 @@ Untuk AI Agent yang akan mengeksekusi instruksi ini, PATUHI aturan berikut secar
 - [x] Buat komponen `src/components/UI/Modal.tsx` dengan props: `isOpen`, `onClose`, `title`, `children`.
 
 ### 2B. Komponen Katalog & Autentikasi
-- [ ] Buat komponen `src/components/Features/CourseCard.tsx` dengan props: `title`, `thumbnail`, `price`, `instructor`, dan link detail.
-- [ ] Buat komponen `src/components/Features/FilterSidebar.tsx` dengan props: `categories` array, `onSelect`.
-- [ ] Buat komponen `src/components/Features/CheckoutSummary.tsx` dengan perhitungan total dan input promo code.
-- [ ] Buat komponen `src/components/Features/AuthForm.tsx` untuk toggle antara Login dan Register.
+- [x] Buat komponen `src/components/Features/CourseCard.tsx` dengan props: `title`, `thumbnail`, `price`, `instructor`, dan link detail.
+- [x] Buat komponen `src/components/Features/FilterSidebar.tsx` dengan props: `categories` array, `onSelect`.
+- [x] Buat komponen `src/components/Features/CheckoutSummary.tsx` dengan perhitungan total dan input promo code.
+- [x] Buat komponen `src/components/Features/AuthForm.tsx` untuk toggle antara Login dan Register.
 
 ### 2C. Komponen Corporate Dashboard (B2B)
 - [ ] Buat komponen `src/components/Features/SeatOverviewCard.tsx` dengan props: `totalSeats`, `usedSeats` dan _visualize_ sisa kuota.
