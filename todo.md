@@ -68,9 +68,9 @@ Untuk AI Agent yang akan mengeksekusi instruksi ini, PATUHI aturan berikut secar
 - [x] Buat halaman `src/app/student/learn/[courseId]/page.tsx` dengan struktur _Split-Screen_: Kiri memuat `VideoPlayer` & `MaterialTabs`, Kanan memuat `SyllabusSidebar`.
 
 ### 3C. Corporate Admin Area (B2B)
-- [ ] Buat layout `src/app/corporate/layout.tsx` untuk render `DashboardSidebar` (role="corporate").
-- [ ] Buat halaman `src/app/corporate/dashboard/page.tsx` untuk render `SeatOverviewCard` dan _dummy chart_ (progress perusahaan).
-- [ ] Buat halaman `src/app/corporate/employees/page.tsx` untuk me-render `EmployeeTable` dan tombol buka `BulkInviteModal`.
+- [x] Buat layout `src/app/corporate/layout.tsx` untuk render `DashboardSidebar` (role="corporate").
+- [x] Buat halaman `src/app/corporate/dashboard/page.tsx` untuk render `SeatOverviewCard` dan _dummy chart_ (progress perusahaan).
+- [x] Buat halaman `src/app/corporate/employees/page.tsx` untuk me-render `EmployeeTable` dan tombol buka `BulkInviteModal`.
 
 ### 3D. Super Admin Area (Venturo CMS)
 - [ ] Buat layout `src/app/admin/layout.tsx` untuk render `DashboardSidebar` (role="admin").
